@@ -1,0 +1,8 @@
+version: "1.0"
+services:
+  php-router:
+    build: .
+    ports:
+      - 80:80
+    volumes:
+      - ./src/:/var/www/html/

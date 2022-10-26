@@ -1,0 +1,5 @@
+<IFModule mod_rewrite.c>
+    Options +FollowSymlinks -Indexes
+    RewriteEngine On
+    RewriteRule !^static($|/) index.php [L,QSA]
+</IFModule>
