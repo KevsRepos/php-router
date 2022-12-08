@@ -10,9 +10,7 @@ I dont even know why I did this. I dont use php for such things. But I felt like
 ---
 ### Usage of the api
 
-To use the router system, you need a `routes` folder in your root directory. Then you can make in you `index.php`
-
-a new `Router` object.
+To use the router system, you need a `routes` folder in your root directory. Then you can put in your `index.php` a new `Router` object.
 Call `handle_request()` to validate, parse and render the incoming request. This will create the full site that you can receive with `get_page()` and `echo` it out.
 
 Routes are defined by Folders instead of files. That gives us a more reliable structure.
